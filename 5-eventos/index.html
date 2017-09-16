@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tipos de dados - High Performance JS">
+    <meta name="keywords" content="HTML, css, Javascript, Inatel">
+    <meta name="author" content="Pedro Zaroni">
+    <title>Carregamento de Scripts</title>
+    <!-- source: https://www.bootstrapcdn.com/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Eventos</h1>
+    <label id="lblNome">Pedro Zaroni</label>
+    <input type="button" value="Q" id="btnTrocaTexto"
+      class="btn btn-danger" onclick="exibeAlerta();"
+      onmouseover="alteraCorBtn(1);"
+      onmouseleave="alteraCorBtn();">
+    </input>
+    <input type="text" id="txbCor" class="form-control"
+      onkeypress="clona()">
+    </input>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
